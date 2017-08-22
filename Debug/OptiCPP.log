@@ -1,0 +1,21 @@
+﻿Build started 8/15/2017 1:52:34 PM.
+     1>Project "C:\Users\user\Desktop\Lab Aero Project\OptiCPP\OptiCPP\OptiCPP.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /I"C:\Users\user\Desktop\Lab Aero Project\OptiCPP\include" /AI"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0" /AI"C:\Program Files (x86)\Windows Kits\8.0\References\CommonConfiguration\Neutral" /Zi /clr /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _MBCS /EHa /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc110.pdb" /TP /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\mscorlib.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Data.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Drawing.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Windows.Forms.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Xml.dll" /analyze- /errorReport:prompt /clr:nostdlib MyForm.cpp
+         MyForm.cpp
+     1>MyForm.cpp(42): warning C4829: Possibly incorrect parameters to function main. Consider 'int main(Platform::Array<Platform::String^>^ argv)'
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\user\Desktop\Lab Aero Project\OptiCPP\Debug\OptiCPP.exe" /INCREMENTAL /NOLOGO /LIBPATH:"C:\Users\user\Desktop\Lab Aero Project\NatNet_SDK_2.10\NatNetSDK\lib" NatNetLibStatic.lib ws2_32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\user\Desktop\Lab Aero Project\OptiCPP\Debug\OptiCPP.pdb" /ASSEMBLYDEBUG /SUBSYSTEM:WINDOWS /TLBID:1 /ENTRY:"main" /DYNAMICBASE /FIXED:NO /NXCOMPAT /MACHINE:X86 Debug\MyForm.obj
+         "Debug\.NETFramework,Version=v4.0.AssemblyAttributes.obj"
+     1>NatNetLibStatic.lib(ClientCore.obj) : warning LNK4099: PDB 'vc120.pdb' was not found with 'NatNetLibStatic.lib(ClientCore.obj)' or at 'C:\Users\user\Desktop\Lab Aero Project\OptiCPP\Debug\vc120.pdb'; linking object as if no debug info
+     1>NatNetLibStatic.lib(NatNetClient.obj) : warning LNK4099: PDB 'vc120.pdb' was not found with 'NatNetLibStatic.lib(NatNetClient.obj)' or at 'C:\Users\user\Desktop\Lab Aero Project\OptiCPP\Debug\vc120.pdb'; linking object as if no debug info
+     1>NatNetLibStatic.lib(NatNetHelper.obj) : warning LNK4099: PDB 'vc120.pdb' was not found with 'NatNetLibStatic.lib(NatNetHelper.obj)' or at 'C:\Users\user\Desktop\Lab Aero Project\OptiCPP\Debug\vc120.pdb'; linking object as if no debug info
+     1>NatNetLibStatic.lib(quattoeuler.obj) : warning LNK4099: PDB 'vc120.pdb' was not found with 'NatNetLibStatic.lib(quattoeuler.obj)' or at 'C:\Users\user\Desktop\Lab Aero Project\OptiCPP\Debug\vc120.pdb'; linking object as if no debug info
+     1>NatNetLibStatic.lib(stdafx.obj) : warning LNK4099: PDB 'vc120.pdb' was not found with 'NatNetLibStatic.lib(stdafx.obj)' or at 'C:\Users\user\Desktop\Lab Aero Project\OptiCPP\Debug\vc120.pdb'; linking object as if no debug info
+     1>NatNetLibStatic.lib(UnicastClientCore.obj) : warning LNK4099: PDB 'vc120.pdb' was not found with 'NatNetLibStatic.lib(UnicastClientCore.obj)' or at 'C:\Users\user\Desktop\Lab Aero Project\OptiCPP\Debug\vc120.pdb'; linking object as if no debug info
+         OptiCPP.vcxproj -> C:\Users\user\Desktop\Lab Aero Project\OptiCPP\Debug\OptiCPP.exe
+     1>Done Building Project "C:\Users\user\Desktop\Lab Aero Project\OptiCPP\OptiCPP\OptiCPP.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:00.69

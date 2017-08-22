@@ -54,7 +54,6 @@ int mainop()
      
     
 	// send/receive test request
-	printf("[SampleClient] Sending Test Request\n");
 	void* response;
 	int nBytes;
 	iResult = theClient->SendMessageAndWait("TestRequest", &response, &nBytes);
